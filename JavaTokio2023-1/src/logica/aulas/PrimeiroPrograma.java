@@ -20,8 +20,8 @@ public class PrimeiroPrograma {
 		System.out.println(salario);
 		
 		String nome = "Vitor";
-		System.out.println("E aÃ­, cabaÃ§o que se chama " + nome);
-		System.out.println(nome + ", vocÃª tem quantos anos?" + (idade + idade));
+		System.out.println("Olá, " + nome + ".");
+		System.out.println(nome + ", você tem quantos anos?" + (idade + idade));
 		
 		
 	}
