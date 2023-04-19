@@ -1,4 +1,4 @@
-package logica_aulas.aula05;
+package logica.aulas.aula05;
 
 public class Operadores {
 
