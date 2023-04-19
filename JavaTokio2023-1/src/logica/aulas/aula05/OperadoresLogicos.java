@@ -23,7 +23,8 @@ public class OperadoresLogicos {
 		
 		//Operadores de Strings
 		
-			String name1 = "camota"; //Apenas a variável. 
+		String name1 = "camota"; //Apenas a variável. 
+		
 	}
 	
 }

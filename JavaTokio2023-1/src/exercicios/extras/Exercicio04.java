@@ -1,7 +1,7 @@
 package exercicios.extras;
 import java.util.Scanner;
 
-public class Exerc_4 {
+public class Exercicio04 {
 
 	public static void main(String[] args) {
 		
