@@ -1,4 +1,4 @@
-package logica.aulas.aula05;
+package logica_aulas.aula05;
 
 public class OperadoresLogicos {
 
@@ -24,3 +24,6 @@ public class OperadoresLogicos {
 		//Operadores de Strings
 		
 			String name1 = "camota"; //Apenas a variável. 
+	}
+	
+}
