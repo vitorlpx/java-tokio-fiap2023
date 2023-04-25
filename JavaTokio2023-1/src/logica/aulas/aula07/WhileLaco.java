@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class WhileLaco {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		//A estrutura de repetição só para quando uma condição for verdadeira.
 
 		Scanner sc = new Scanner(System.in);
 		

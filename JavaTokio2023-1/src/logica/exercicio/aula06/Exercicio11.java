@@ -1,5 +1,7 @@
 package logica.exercicio.aula06;
 
+import java.util.Scanner;
+
 public class Exercicio11 {
 
 	public static void main(String[] args) {
@@ -16,7 +18,10 @@ public class Exercicio11 {
 			//▪ valor do imposto que e cobrado com base no preço da carga e do estado de origem
 			//▪ o valor total transportado pelo caminhão (carga + impostos)
 		
+		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Informe o código de origem da carga do caminhão (1 até 5): ");
+		int co
 
 	}
 
