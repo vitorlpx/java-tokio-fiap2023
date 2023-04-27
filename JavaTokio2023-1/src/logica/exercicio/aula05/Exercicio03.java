@@ -29,7 +29,7 @@ public class Exercicio03 {
 		
 		char genero = sc.nextLine().charAt(0);  //Pegando somente a primeira letra do que o usuário digitou.
 		
-		System.out.println("Olá, " + nome + "." + "Você escolheu a seguinta opção de gênero: " + genero);
+		System.out.println("Olá, " + nome + "." + " Você escolheu a seguinta opção de gênero: " + genero);
 	}
 
 }
