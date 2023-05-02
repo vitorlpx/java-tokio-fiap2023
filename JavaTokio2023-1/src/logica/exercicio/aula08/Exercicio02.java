@@ -14,24 +14,12 @@ public class Exercicio02 {
 		
 		Calendar c = Calendar.getInstance();
 		int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
-		
-		System.out.println("QUE DIA É HOJE EM?"
-				+ "1. SEGUNDA"
-				+ "2. TERÇA"
-				+ "3. QUARTA"
-				+ "4. QUINTA"
-				+ "5. SEXTA"
-				+ "6. SABÁDO"
-				+ "7. DOMINGO");
-		String day = sc.nextLine();
-		
 
-		switch(day) {
-		case "1":
-			System.out.println("HO");
+		if (dayOfWeek == 3) {
+			System.out.println("Dia de feira.");
+		} else {
+			System.out.println("Não é dia de feira.");
 		}
-		
-		
 		
 	}
 
