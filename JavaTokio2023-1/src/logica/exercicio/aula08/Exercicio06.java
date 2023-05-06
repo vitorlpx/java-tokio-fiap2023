@@ -24,7 +24,7 @@ public class Exercicio06 {
 		
 		for (int i = 1; i <= 100; i++) {
 			int numeroSorteado = random.nextInt((max - min) + 1) + min;            
-            System.out.println("Número sorteado: " + numeroSorteado);
+            System.out.println(numeroSorteado);
   
 			if(numeroSorteado % 2 == 0) {
             	par += 1;
