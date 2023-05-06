@@ -1,6 +1,7 @@
 package logica.exercicio.aula08;
 
 import java.util.Random;
+import java.util.Arrays;
 
 public class Exercicio06 {
 
@@ -18,23 +19,29 @@ public class Exercicio06 {
 		int max = 100;
 		int par = 0;
 		int impar = 0;
+		int primo = 0;
+		
 		
 		for (int i = 1; i <= 100; i++) {
 			int numeroSorteado = random.nextInt((max - min) + 1) + min;            
             System.out.println("Número sorteado: " + numeroSorteado);
-
+  
+			if(numeroSorteado % 2 == 0) {
+            	par += 1;
             
-            if(numeroSorteado % 2 == 0) {
-            	numeroSorteado += par;
-            } else if (numeroSorteado % 2 == 1) {
-            	impar+= numeroSorteado;
-            } 
-		}
-		
+            } else {
+            	impar += 1;
+            }   
+     
+			if ((numeroSorteado%2!=0) && (numeroSorteado%3!=0)) {
+				primo +=1;
+			}
+          
+		}		
 		System.out.println("O número par foi sorteado " + par + " vezes.");
 		System.out.println("O número impar foi sorteado " + impar + " vezes.");
-		
-		
+		System.out.println("O número primo foi sorteado " + primo + " vezes.");
 	}
 
 }
+
