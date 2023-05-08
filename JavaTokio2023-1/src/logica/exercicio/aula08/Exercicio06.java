@@ -33,14 +33,19 @@ public class Exercicio06 {
             	impar += 1;
             }   
      
-			if ((numeroSorteado%2!=0) && (numeroSorteado%3!=0)) {
-				primo +=1;
+			for(int j = 2; j < numeroSorteado; j++) {
+				if (numeroSorteado % j == 0) {
+					break;
+				}
+				primo++;
 			}
+			
+			System.out.println("Qtd primos: " + primo);
           
 		}		
-		System.out.println("O número par foi sorteado " + par + " vezes.");
-		System.out.println("O número impar foi sorteado " + impar + " vezes.");
-		System.out.println("O número primo foi sorteado " + primo + " vezes.");
+//		System.out.println("O número par foi sorteado " + par + " vezes.");
+//		System.out.println("O número impar foi sorteado " + impar + " vezes.");
+//		System.out.println("O número primo foi sorteado " + primo + " vezes.");
 	}
 
 }
